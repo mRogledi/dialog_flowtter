@@ -1,5 +1,6 @@
 import '../../dialog_flowtter.dart';
 
+// ignore: avoid_classes_with_only_static_members
 /// The DialogFlowtter http util
 class HttpUtil {
   /// Returns the body of the http request filtering the null params
@@ -23,7 +24,7 @@ class HttpUtil {
 
   /// Returns the formated session URI
   static String getFormatedSession(String? projectId, String sessionId) {
-    return 'projects/$projectId/agent/sessions/$sessionId';
+    return 'projects/$projectId/locations/europe-west1/agent/sessions/$sessionId';
   }
 
   /// Verifies if the response is valid and successful

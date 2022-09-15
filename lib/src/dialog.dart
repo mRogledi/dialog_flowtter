@@ -86,7 +86,8 @@ class DialogFlowtter {
       'https://www.googleapis.com/auth/dialogflow';
 
   /// The DialogFlow URL that the package is currently using
-  static const String kDialogFlowUrl = "https://dialogflow.googleapis.com";
+  static const String kDialogFlowUrl =
+      "https://europe-west1-dialogflow.googleapis.com";
 
   /// The DialogFlow API version that the package is currently using
   static const String kDialogFlowApiVersion = "v2";
